@@ -1,1 +1,3 @@
-# Court-Project
+# Court-Data Fetcher & Mini-Dashboard
+A web app that allows users to select a Case Type, Case Number, and Filing Year for a specific Indian court (e.g., Delhi High Court or a District Court eCourts portal) and fetch case metadata along with the latest orders/judgments. The app includes a simple HTML form UI, a backend scraper (handling view-state tokens/CAPTCHA), and parses party names, filing dates, next hearing dates, and the most recent PDF order/judgment link. Each query and raw response is logged in SQLite/PostgreSQL. Results are displayed in a clean format with PDF download options, and user-friendly error messages are shown for invalid case numbers or site downtime.
+
