@@ -1,0 +1,247 @@
+2025-08-07 22:32:30,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.130:5000
+2025-08-07 22:32:30,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 22:32:30,531 - INFO -  * Restarting with stat
+2025-08-07 22:32:31,846 - WARNING -  * Debugger is active!
+2025-08-07 22:32:31,852 - INFO -  * Debugger PIN: 129-206-241
+2025-08-07 22:32:34,988 - INFO - 127.0.0.1 - - [07/Aug/2025 22:32:34] "GET / HTTP/1.1" 200 -
+2025-08-07 22:32:35,170 - INFO - 127.0.0.1 - - [07/Aug/2025 22:32:35] "[36mGET /static/court.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:32:44,870 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-07 22:32:44,871 - INFO - ====== WebDriver manager ======
+2025-08-07 22:32:46,829 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:32:46,991 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:32:47,076 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-07 22:32:49,144 - INFO - Navigating to Warangal court website...
+2025-08-07 22:32:52,485 - INFO - Page loaded successfully
+2025-08-07 22:32:53,301 - INFO - Saved initial page state
+2025-08-07 22:32:53,303 - INFO - Setting form values...
+2025-08-07 22:32:53,336 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-07 22:32:54,344 - INFO - Set case type: 21
+2025-08-07 22:32:55,657 - INFO - Set case number: 10/2025
+2025-08-07 22:32:56,851 - INFO - Saved form filled state
+2025-08-07 22:32:56,851 - INFO - CAPTCHA required...
+2025-08-07 22:32:59,227 - INFO - Search completed in 14.36 seconds
+2025-08-07 22:32:59,320 - INFO - package: mysql.connector.plugins
+2025-08-07 22:32:59,320 - INFO - plugin_name: caching_sha2_password
+2025-08-07 22:32:59,320 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-07 22:32:59,321 - INFO - package: mysql.connector.plugins
+2025-08-07 22:32:59,322 - INFO - plugin_name: mysql_native_password
+2025-08-07 22:32:59,324 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-08-07 22:32:59,339 - ERROR - Database connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-08-07 22:32:59,340 - WARNING - Skipping database log: No connection
+2025-08-07 22:32:59,340 - INFO - CAPTCHA required
+2025-08-07 22:32:59,347 - INFO - 127.0.0.1 - - [07/Aug/2025 22:32:59] "POST /search HTTP/1.1" 200 -
+2025-08-07 22:33:08,045 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-07 22:33:08,046 - INFO - ====== WebDriver manager ======
+2025-08-07 22:33:09,461 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:33:09,550 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:33:09,629 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-07 22:33:11,124 - INFO - Navigating to Warangal court website...
+2025-08-07 22:33:12,098 - INFO - Page loaded successfully
+2025-08-07 22:33:12,258 - INFO - Saved initial page state
+2025-08-07 22:33:12,259 - INFO - Setting form values...
+2025-08-07 22:33:12,280 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-07 22:33:13,293 - INFO - Set case type: 21
+2025-08-07 22:33:14,600 - INFO - Set case number: 10/2025
+2025-08-07 22:33:15,737 - INFO - Saved form filled state
+2025-08-07 22:33:15,737 - INFO - Entering CAPTCHA...
+2025-08-07 22:33:15,855 - INFO - Submitting form...
+2025-08-07 22:33:25,950 - WARNING - Button click failed: Message: 
+
+2025-08-07 22:33:27,724 - INFO - Form submitted via form.submit()
+2025-08-07 22:33:27,725 - INFO - Waiting for results...
+2025-08-07 22:33:42,741 - WARNING - Results container not detected, proceeding anyway
+2025-08-07 22:33:43,342 - INFO - Saved results page
+2025-08-07 22:33:43,364 - INFO - Parsing results...
+2025-08-07 22:33:43,477 - WARNING - No results holder found
+2025-08-07 22:33:45,801 - INFO - Search completed in 37.76 seconds
+2025-08-07 22:33:45,914 - ERROR - Database connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-08-07 22:33:45,916 - WARNING - Skipping database log: No connection
+2025-08-07 22:33:45,916 - INFO - No results found
+2025-08-07 22:33:45,932 - INFO - 127.0.0.1 - - [07/Aug/2025 22:33:45] "POST /search HTTP/1.1" 200 -
+2025-08-07 22:52:32,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.130:5000
+2025-08-07 22:52:32,193 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 22:52:32,194 - INFO -  * Restarting with stat
+2025-08-07 22:52:33,185 - WARNING -  * Debugger is active!
+2025-08-07 22:52:33,194 - INFO -  * Debugger PIN: 129-206-241
+2025-08-07 22:52:37,499 - INFO - 127.0.0.1 - - [07/Aug/2025 22:52:37] "GET / HTTP/1.1" 200 -
+2025-08-07 22:52:37,784 - INFO - 127.0.0.1 - - [07/Aug/2025 22:52:37] "[36mGET /static/court.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:52:45,345 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-07 22:52:45,347 - INFO - ====== WebDriver manager ======
+2025-08-07 22:52:46,866 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:52:46,999 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:52:47,085 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-07 22:52:49,033 - INFO - Navigating to Warangal court website...
+2025-08-07 22:52:50,053 - INFO - Page loaded successfully
+2025-08-07 22:52:50,222 - INFO - Saved initial page state
+2025-08-07 22:52:50,223 - INFO - Setting form values...
+2025-08-07 22:52:50,242 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-07 22:52:51,255 - INFO - Set case type: 21
+2025-08-07 22:52:52,750 - INFO - Set case number: 10/2025
+2025-08-07 22:52:53,898 - INFO - Saved form filled state
+2025-08-07 22:52:53,900 - INFO - CAPTCHA required...
+2025-08-07 22:52:56,314 - INFO - Search completed in 10.97 seconds
+2025-08-07 22:52:56,490 - INFO - package: mysql.connector.plugins
+2025-08-07 22:52:56,491 - INFO - plugin_name: caching_sha2_password
+2025-08-07 22:52:56,493 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-07 22:52:56,497 - INFO - package: mysql.connector.plugins
+2025-08-07 22:52:56,498 - INFO - plugin_name: mysql_native_password
+2025-08-07 22:52:56,503 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-08-07 22:52:56,516 - ERROR - Database connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-08-07 22:52:56,519 - WARNING - Skipping database log: No connection
+2025-08-07 22:52:56,520 - INFO - CAPTCHA required
+2025-08-07 22:52:56,532 - INFO - 127.0.0.1 - - [07/Aug/2025 22:52:56] "POST /search HTTP/1.1" 200 -
+2025-08-07 22:53:03,556 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-07 22:53:03,557 - INFO - ====== WebDriver manager ======
+2025-08-07 22:53:05,112 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:53:05,405 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:53:05,601 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-07 22:53:07,348 - INFO - Navigating to Warangal court website...
+2025-08-07 22:53:09,880 - INFO - Page loaded successfully
+2025-08-07 22:53:10,053 - INFO - Saved initial page state
+2025-08-07 22:53:10,054 - INFO - Setting form values...
+2025-08-07 22:53:10,075 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-07 22:53:11,088 - INFO - Set case type: 21
+2025-08-07 22:53:12,529 - INFO - Set case number: 10/2025
+2025-08-07 22:53:13,680 - INFO - Saved form filled state
+2025-08-07 22:53:13,681 - INFO - Entering CAPTCHA...
+2025-08-07 22:53:13,804 - INFO - Submitting form...
+2025-08-07 22:53:13,854 - INFO - Form submitted via JavaScript click
+2025-08-07 22:53:13,855 - INFO - Waiting for results...
+2025-08-07 22:53:13,855 - WARNING - Results container not detected, proceeding anyway
+2025-08-07 22:53:19,018 - INFO - Saved results page
+2025-08-07 22:53:19,032 - WARNING - No records found
+2025-08-07 22:53:21,368 - INFO - Search completed in 17.81 seconds
+2025-08-07 22:53:21,443 - ERROR - Database connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-08-07 22:53:21,445 - WARNING - Skipping database log: No connection
+2025-08-07 22:53:21,447 - INFO - No results found
+2025-08-07 22:53:21,462 - INFO - 127.0.0.1 - - [07/Aug/2025 22:53:21] "POST /search HTTP/1.1" 200 -
+2025-08-07 22:53:51,333 - INFO -  * Detected change in 'C:\\Users\\SNEHALADTHARADDY\\OneDrive\\Desktop\\task_1\\db.py', reloading
+2025-08-07 22:53:51,467 - INFO -  * Restarting with stat
+2025-08-07 22:53:52,763 - WARNING -  * Debugger is active!
+2025-08-07 22:53:52,769 - INFO -  * Debugger PIN: 129-206-241
+2025-08-07 22:54:02,698 - INFO - 127.0.0.1 - - [07/Aug/2025 22:54:02] "GET / HTTP/1.1" 200 -
+2025-08-07 22:54:02,777 - INFO - 127.0.0.1 - - [07/Aug/2025 22:54:02] "[36mGET /static/court.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:54:07,760 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-07 22:54:07,761 - INFO - ====== WebDriver manager ======
+2025-08-07 22:54:09,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:54:09,343 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:54:09,433 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-07 22:54:11,625 - INFO - Navigating to Warangal court website...
+2025-08-07 22:54:12,669 - INFO - Page loaded successfully
+2025-08-07 22:54:12,870 - INFO - Saved initial page state
+2025-08-07 22:54:12,873 - INFO - Setting form values...
+2025-08-07 22:54:12,894 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-07 22:54:13,905 - INFO - Set case type: 21
+2025-08-07 22:54:15,419 - INFO - Set case number: 10/2025
+2025-08-07 22:54:16,569 - INFO - Saved form filled state
+2025-08-07 22:54:16,569 - INFO - CAPTCHA required...
+2025-08-07 22:54:18,988 - INFO - Search completed in 11.23 seconds
+2025-08-07 22:54:19,073 - INFO - package: mysql.connector.plugins
+2025-08-07 22:54:19,074 - INFO - plugin_name: caching_sha2_password
+2025-08-07 22:54:19,074 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-07 22:54:19,076 - INFO - package: mysql.connector.plugins
+2025-08-07 22:54:19,077 - INFO - plugin_name: mysql_native_password
+2025-08-07 22:54:19,080 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-08-07 22:54:19,123 - INFO - Database connection established
+2025-08-07 22:54:19,183 - INFO - Query logged successfully
+2025-08-07 22:54:19,186 - INFO - CAPTCHA required
+2025-08-07 22:54:19,197 - INFO - 127.0.0.1 - - [07/Aug/2025 22:54:19] "POST /search HTTP/1.1" 200 -
+2025-08-07 22:54:32,308 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-07 22:54:32,309 - INFO - ====== WebDriver manager ======
+2025-08-07 22:54:33,724 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:54:33,828 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-07 22:54:33,913 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-07 22:54:35,324 - INFO - Navigating to Warangal court website...
+2025-08-07 22:54:37,026 - INFO - Page loaded successfully
+2025-08-07 22:54:37,217 - INFO - Saved initial page state
+2025-08-07 22:54:37,217 - INFO - Setting form values...
+2025-08-07 22:54:37,240 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-07 22:54:38,251 - INFO - Set case type: 21
+2025-08-07 22:54:39,498 - INFO - Set case number: 10/2025
+2025-08-07 22:54:40,629 - INFO - Saved form filled state
+2025-08-07 22:54:40,629 - INFO - Entering CAPTCHA...
+2025-08-07 22:54:40,751 - INFO - Submitting form...
+2025-08-07 22:54:40,798 - INFO - Form submitted via JavaScript click
+2025-08-07 22:54:40,799 - INFO - Waiting for results...
+2025-08-07 22:54:40,800 - WARNING - Results container not detected, proceeding anyway
+2025-08-07 22:54:45,981 - INFO - Saved results page
+2025-08-07 22:54:45,998 - WARNING - No records found
+2025-08-07 22:54:48,605 - INFO - Search completed in 16.3 seconds
+2025-08-07 22:54:48,672 - INFO - Database connection established
+2025-08-07 22:54:48,681 - INFO - Query logged successfully
+2025-08-07 22:54:48,684 - INFO - No results found
+2025-08-07 22:54:48,695 - INFO - 127.0.0.1 - - [07/Aug/2025 22:54:48] "POST /search HTTP/1.1" 200 -
+2025-08-08 16:23:16,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.130:5000
+2025-08-08 16:23:16,509 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 16:23:16,514 - INFO -  * Restarting with stat
+2025-08-08 16:23:17,623 - WARNING -  * Debugger is active!
+2025-08-08 16:23:17,631 - INFO -  * Debugger PIN: 129-206-241
+2025-08-08 16:27:46,306 - INFO - 127.0.0.1 - - [08/Aug/2025 16:27:46] "GET / HTTP/1.1" 200 -
+2025-08-08 16:27:46,429 - INFO - 127.0.0.1 - - [08/Aug/2025 16:27:46] "[36mGET /static/court.jpg HTTP/1.1[0m" 304 -
+2025-08-08 16:27:46,451 - INFO - 127.0.0.1 - - [08/Aug/2025 16:27:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-08 16:28:31,890 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-08 16:28:31,892 - INFO - ====== WebDriver manager ======
+2025-08-08 16:28:33,833 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-08 16:28:34,032 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-08 16:28:34,162 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-08 16:28:34,504 - INFO - WebDriver version 138.0.7204.183 selected
+2025-08-08 16:28:34,512 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.183/win32/chromedriver-win32.zip
+2025-08-08 16:28:34,513 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.183/win32/chromedriver-win32.zip
+2025-08-08 16:28:34,736 - INFO - Driver downloading response is 200
+2025-08-08 16:28:45,706 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-08 16:28:46,143 - INFO - Driver has been saved in cache [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183]
+2025-08-08 16:28:49,989 - INFO - Navigating to Warangal court website...
+2025-08-08 16:28:53,664 - INFO - Page loaded successfully
+2025-08-08 16:28:53,855 - INFO - Saved initial page state
+2025-08-08 16:28:53,856 - INFO - Setting form values...
+2025-08-08 16:28:53,874 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-08 16:28:54,888 - INFO - Set case type: 21
+2025-08-08 16:28:56,381 - INFO - Set case number: 10/2025
+2025-08-08 16:28:57,663 - INFO - Saved form filled state
+2025-08-08 16:28:57,665 - INFO - CAPTCHA required...
+2025-08-08 16:29:00,101 - INFO - Search completed in 28.22 seconds
+2025-08-08 16:29:00,312 - INFO - package: mysql.connector.plugins
+2025-08-08 16:29:00,313 - INFO - plugin_name: caching_sha2_password
+2025-08-08 16:29:00,313 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-08 16:29:00,317 - INFO - package: mysql.connector.plugins
+2025-08-08 16:29:00,317 - INFO - plugin_name: mysql_native_password
+2025-08-08 16:29:00,320 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-08-08 16:29:00,362 - INFO - Database connection established
+2025-08-08 16:29:00,428 - INFO - Query logged successfully
+2025-08-08 16:29:00,431 - INFO - CAPTCHA required
+2025-08-08 16:29:00,478 - INFO - 127.0.0.1 - - [08/Aug/2025 16:29:00] "POST /search HTTP/1.1" 200 -
+2025-08-08 16:29:12,409 - INFO - Starting search: {'est_code': 'TSWL00,TSWL03,TSWL02', 'case_type': '21', 'reg_no': '10', 'reg_year': '2025'}
+2025-08-08 16:29:12,410 - INFO - ====== WebDriver manager ======
+2025-08-08 16:29:14,067 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-08 16:29:14,184 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-08 16:29:14,287 - INFO - Driver [C:\Users\SNEHALADTHARADDY\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-08 16:29:15,811 - INFO - Navigating to Warangal court website...
+2025-08-08 16:29:19,844 - INFO - Page loaded successfully
+2025-08-08 16:29:20,008 - INFO - Saved initial page state
+2025-08-08 16:29:20,008 - INFO - Setting form values...
+2025-08-08 16:29:20,026 - INFO - Set court complex: TSWL00,TSWL03,TSWL02
+2025-08-08 16:29:21,039 - INFO - Set case type: 21
+2025-08-08 16:29:22,446 - INFO - Set case number: 10/2025
+2025-08-08 16:29:23,669 - INFO - Saved form filled state
+2025-08-08 16:29:23,670 - INFO - Entering CAPTCHA...
+2025-08-08 16:29:23,888 - INFO - Submitting form...
+2025-08-08 16:29:23,932 - INFO - Form submitted via JavaScript click
+2025-08-08 16:29:23,933 - INFO - Waiting for results...
+2025-08-08 16:29:23,933 - WARNING - Results container not detected, proceeding anyway
+2025-08-08 16:29:29,134 - INFO - Saved results page
+2025-08-08 16:29:29,153 - INFO - Parsing results...
+2025-08-08 16:29:29,237 - INFO - Found 2 cases
+2025-08-08 16:29:31,589 - INFO - Search completed in 19.18 seconds
+2025-08-08 16:29:31,681 - INFO - Database connection established
+2025-08-08 16:29:31,693 - INFO - Query logged successfully
+2025-08-08 16:29:31,695 - INFO - Found 2 results
+2025-08-08 16:29:31,732 - INFO - 127.0.0.1 - - [08/Aug/2025 16:29:31] "POST /search HTTP/1.1" 200 -
